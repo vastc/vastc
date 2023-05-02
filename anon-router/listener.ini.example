@@ -1,0 +1,17 @@
+[local]
+aet=ANON_LISTENER
+port=8104
+series_match_file=series_descriptions.txt
+
+[archive]
+aet=DCM4CHEE
+host=dicomarchive.example.com
+port=11112
+
+[dl]
+aet=DL
+host=dlhost.example.com
+port=8104
+
+
+

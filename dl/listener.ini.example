@@ -1,0 +1,8 @@
+[local]
+aet=DL
+port=8104
+
+[anon]
+aet=ANON_LISTENER
+host=localhost
+port=8105

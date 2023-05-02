@@ -1,0 +1,37 @@
+{
+   "BodyPartExamined" : "abdomen",
+   "ClinicalTrialCoordinatingCenterName" : "dcmqi",
+   "ClinicalTrialSeriesID" : "Session1",
+   "ClinicalTrialTimePointID" : "1",
+   "ContentCreatorName" : "Reader1",
+   "ContentDescription" : "Image segmentation",
+   "ContentLabel" : "SEGMENTATION",
+   "InstanceNumber" : "1",
+   "SeriesDescription" : "spleen",
+   "SeriesNumber" : "300",
+   "segmentAttributes" : [
+      [
+         {
+            "SegmentAlgorithmName" : "nnU-net",
+            "SegmentAlgorithmType" : "AUTOMATIC",
+            "SegmentDescription" : "spleen",
+            "SegmentedPropertyCategoryCodeSequence" : {
+               "CodeMeaning" : "Anatomical Structure",
+               "CodeValue" : "123037004",
+               "CodingSchemeDesignator" : "SCT"
+            },
+            "SegmentedPropertyTypeCodeSequence" : {
+               "CodeMeaning" : "Abdomen",
+               "CodeValue" : "113345001",
+               "CodingSchemeDesignator" : "SCT"
+            },
+            "labelID" : 1,
+            "recommendedDisplayRGBValue" : [
+               39,
+               218,
+               39
+            ]
+         }
+      ]
+   ]
+}

@@ -1,0 +1,8 @@
+dicom-anonymizer @ git+https://github.com/KitwareMedical/dicom-anonymizer.git@1690b78e547a3caf61fcbe880a27921ed8768bfd
+highdicom==0.20.0
+numpy==1.24.2
+Pillow==9.4.0
+pillow-jpls==1.2.0
+pydicom==2.3.1
+pynetdicom==2.0.2
+tqdm==4.65.0
