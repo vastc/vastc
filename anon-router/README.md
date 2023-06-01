@@ -8,5 +8,5 @@ If filtering of recieved series based on series descriptions is required create 
 
 ### Building and Running the Docker Image
 
-`docker build -t vastc-anon-listener .` 
+`docker build -t vastc-anon-listener .`  
 `docker run --rm -p 8104:8104 -v $(pwd)/series-descriptions.txt:/app/series-descriptions.txt -v $(pwd)/listener.ini:/app/listener.ini vastc-anon-listener`
